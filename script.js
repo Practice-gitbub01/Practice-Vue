@@ -4,7 +4,8 @@ createApp({
     data() {
         return {
             bool: false,
-            message: 'Hello Vue 3!'
+            message: 'Hello Vue 3!',
+            vforlist: ["A", "B", "C"]
         }
     },
     methods: {
