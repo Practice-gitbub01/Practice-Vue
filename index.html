@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue html</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    
+</head>
+<body>
+    <div id="app">
+        <p>bool =  {{ bool }}</p>
+        <button @click = Rebool>Re.bool</button>
+        <hr>
+        <div>
+            <h3>1. vue 的 @click <br></h3>
+            <p>{{ message }}</p>
+            <button @click = "changeMessage">點擊 @click</button>
+        </div>
+        <hr>
+        <div>
+            <h3>2. vue 的 v-if，v-else<br></h3>
+            <p v-if = "bool">條件一</p>
+            <p v-else>條件二</p>
+            <button @click = "vif">點擊</button>
+        </div>
+        <hr>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>  
